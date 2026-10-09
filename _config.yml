@@ -1,0 +1,54 @@
+
+# Personal website of W.A. Susantha Wijesinghe
+
+title: "W.A. Susantha Wijesinghe"
+subtitle: "Engineering | Learning | Awareness"
+
+description: >-
+  Personal website and blog exploring digital systems,
+  embedded technologies, research, learning, professional
+  development, and consciousness.
+
+url: "https://susantha-wijesinghe.github.io"
+baseurl: ""
+
+locale: "en-US"
+timezone: "Asia/Colombo"
+
+# Minimal Mistakes theme
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
+minimal_mistakes_skin: "default"
+
+# Blog settings
+markdown: kramdown
+permalink: /:categories/:title/
+search: true
+
+# Required Jekyll plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Author information
+author:
+  name: "W.A. Susantha Wijesinghe"
+  bio: "Electronics educator, researcher, and lifelong learner."
+  location: "Sri Lanka"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/susantha-wijesinghe"
+
+# Default layout for blog posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: true
+      related: true
