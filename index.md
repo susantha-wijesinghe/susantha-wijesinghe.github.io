@@ -10,6 +10,7 @@ author_profile: true
 
 ### Engineering. Learning. Awareness.
 
+
 Welcome to my personal website.
 
 I am an electronics educator and researcher with a
